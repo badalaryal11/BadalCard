@@ -11,6 +11,7 @@
 		58745FF52B73A34B002CF4C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58745FF42B73A34B002CF4C3 /* ContentView.swift */; };
 		58745FF72B73A34D002CF4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58745FF62B73A34D002CF4C3 /* Assets.xcassets */; };
 		58745FFA2B73A34D002CF4C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58745FF92B73A34D002CF4C3 /* Preview Assets.xcassets */; };
+		587460022B73AA21002CF4C3 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 587460012B73AA21002CF4C3 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		58745FF42B73A34B002CF4C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58745FF62B73A34D002CF4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58745FF92B73A34D002CF4C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		587460012B73AA21002CF4C3 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		587460032B73ABBA002CF4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		58745FF12B73A34B002CF4C3 /* BadalCard */ = {
 			isa = PBXGroup;
 			children = (
+				587460032B73ABBA002CF4C3 /* Info.plist */,
+				587460002B73A9A9002CF4C3 /* Fonts */,
 				58745FF22B73A34B002CF4C3 /* BadalCardApp.swift */,
 				58745FF42B73A34B002CF4C3 /* ContentView.swift */,
 				58745FF62B73A34D002CF4C3 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				58745FF92B73A34D002CF4C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		587460002B73A9A9002CF4C3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				587460012B73AA21002CF4C3 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587460022B73AA21002CF4C3 /* Pacifico-Regular.ttf in Resources */,
 				58745FFA2B73A34D002CF4C3 /* Preview Assets.xcassets in Resources */,
 				58745FF72B73A34D002CF4C3 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = 6NZDML3UK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BadalCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = 6NZDML3UK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BadalCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

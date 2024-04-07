@@ -13,7 +13,7 @@ struct ContentView: View {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
-                Image("Badal").resizable()
+                Image("Badal 2").resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150.0, height: 150.0)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
